@@ -40,6 +40,8 @@
 		4E6EBED02A0F20D4005BAAE0 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EBECF2A0F20D4005BAAE0 /* MapAnnotationView.swift */; };
 		4E6EBED22A0F25FB005BAAE0 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6EBED12A0F25FB005BAAE0 /* MotionAnimationView.swift */; };
 		4E73ABA92A107FC3009FD4DF /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73ABA82A107FC3009FD4DF /* AnimalGridItemView.swift */; };
+		4E73ABAB2A108A6B009FD4DF /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73ABAA2A108A6B009FD4DF /* CreditsView.swift */; };
+		4E73ABAE2A108BD7009FD4DF /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73ABAD2A108BD7009FD4DF /* CenterModifier.swift */; };
 		4E970EC22A0955A900178B0A /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E970EC12A0955A900178B0A /* AnimalDetailView.swift */; };
 		4E970EC42A0957D100178B0A /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E970EC32A0957D100178B0A /* HeadingView.swift */; };
 		4E970EC62A09596500178B0A /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E970EC52A09596500178B0A /* InsetGalleryView.swift */; };
@@ -87,6 +89,9 @@
 		4E6EBECF2A0F20D4005BAAE0 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		4E6EBED12A0F25FB005BAAE0 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		4E73ABA82A107FC3009FD4DF /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		4E73ABAA2A108A6B009FD4DF /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		4E73ABAD2A108BD7009FD4DF /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		4E73ABAF2A108DA3009FD4DF /* AfricaAnimals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AfricaAnimals.entitlements; sourceTree = "<group>"; };
 		4E970EC12A0955A900178B0A /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		4E970EC32A0957D100178B0A /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		4E970EC52A09596500178B0A /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
@@ -136,6 +141,8 @@
 		4E56EC0F2A0751B700E02FE7 /* AfricaAnimals */ = {
 			isa = PBXGroup;
 			children = (
+				4E73ABAF2A108DA3009FD4DF /* AfricaAnimals.entitlements */,
+				4E73ABAC2A108BC3009FD4DF /* Modifiers */,
 				4E02B52C2A0E225300250E61 /* Utils */,
 				4E56EC3C2A07552800E02FE7 /* Info.plist */,
 				4ED8B3882A07D75100274AE2 /* Models */,
@@ -216,8 +223,17 @@
 				4E6EBECF2A0F20D4005BAAE0 /* MapAnnotationView.swift */,
 				4E6EBED12A0F25FB005BAAE0 /* MotionAnimationView.swift */,
 				4E73ABA82A107FC3009FD4DF /* AnimalGridItemView.swift */,
+				4E73ABAA2A108A6B009FD4DF /* CreditsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4E73ABAC2A108BC3009FD4DF /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4E73ABAD2A108BD7009FD4DF /* CenterModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		4ED8B3882A07D75100274AE2 /* Models */ = {
@@ -326,6 +342,7 @@
 				4E02B5292A0E1BA700250E61 /* VideoListItemView.swift in Sources */,
 				4E4034852A08C719000C79C9 /* AnimalListItemView.swift in Sources */,
 				4E56EC132A0751B700E02FE7 /* ContentView.swift in Sources */,
+				4E73ABAE2A108BD7009FD4DF /* CenterModifier.swift in Sources */,
 				4E6EBECE2A0F1A14005BAAE0 /* LocationModel.swift in Sources */,
 				4E970EC62A09596500178B0A /* InsetGalleryView.swift in Sources */,
 				4E73ABA92A107FC3009FD4DF /* AnimalGridItemView.swift in Sources */,
@@ -347,6 +364,7 @@
 				4E970ECA2A095E2F00178B0A /* InsetMapView.swift in Sources */,
 				4E56EC112A0751B700E02FE7 /* AfricaAnimalsApp.swift in Sources */,
 				4E56EC432A07563E00E02FE7 /* GalleryView.swift in Sources */,
+				4E73ABAB2A108A6B009FD4DF /* CreditsView.swift in Sources */,
 				4E02B52B2A0E217200250E61 /* VideoPlayerView.swift in Sources */,
 				4E6EBED22A0F25FB005BAAE0 /* MotionAnimationView.swift in Sources */,
 			);
@@ -474,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AfricaAnimals/AfricaAnimals.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AfricaAnimals/Preview Content\"";
@@ -494,6 +513,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dodiaditya.AfricaAnimals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AfricaAnimals/AfricaAnimals.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AfricaAnimals/Preview Content\"";
@@ -525,6 +548,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dodiaditya.AfricaAnimals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

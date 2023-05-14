@@ -54,6 +54,9 @@ struct ContentView: View {
                                 AnimalListItemView(animal: animal)
                             }
                         }
+                        
+                        CreditsView()
+                            .modifier(CenterModifier())
                     } // List
                     .listStyle(.inset)
                 } else {
